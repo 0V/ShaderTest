@@ -113,6 +113,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &51506790 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ab4dd9d29456e400b9ce19a73031aac5,
+    type: 3}
+  m_PrefabInternal: {fileID: 2052860794}
+--- !u!114 &51506794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51506790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad8cdf557eb8fd4fbfe3fcb43e32222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topology: 5
 --- !u!1 &1357691339
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +347,7 @@ Prefab:
     - target: {fileID: 2300000, guid: ab4dd9d29456e400b9ce19a73031aac5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d8f486a75de378345861e881801a9f69, type: 2}
+      objectReference: {fileID: 2100000, guid: 76c9de15f14ea3540a250cd0ae6c7506, type: 2}
     - target: {fileID: 100000, guid: ab4dd9d29456e400b9ce19a73031aac5, type: 3}
       propertyPath: m_Name
       value: dragon
